@@ -1,0 +1,55 @@
+.mapIcon {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  z-index: 1;
+  border: 3px solid #efefef;
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: pointer;
+  height: 120px;
+  width: 120px;
+  transition: opacity 0.1s ease-in-out;
+}
+
+.mapIcon:hover {
+  opacity: 0.8;
+}
+
+.groupSearch {
+  flex: 1;
+}
+.searchInput {
+  flex: 1;
+}
+
+.mt1 {
+  margin-top: 1rem;
+  display: flex;
+  flex: 1;
+  align-items: flex-end;
+}
+
+.title {
+  font-weight: 500;
+  color: #282a2c;
+}
+.address {
+  font-size: 0.85rem;
+}
+.location {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 0.85rem;
+  margin-top: 0.85rem;
+  color: #506ee0;
+  margin-left: -5px;
+}
+.locationIcon {
+  color: #506ee0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
