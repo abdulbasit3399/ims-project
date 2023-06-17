@@ -60,8 +60,8 @@ export function CRM() {
           <Card key={id}>
             <Group position="apart" style={{ flexWrap: 'wrap-reverse' }}>
               <div>
-                <h5>{name}</h5>
-                <h6>{hirer.hirer_type?.name}</h6>
+                <h5>{name}abc</h5>
+                <h6>{hirer.hirer_type?.name} abc</h6>
               </div>
               <Group position={'right'} style={{ alignSelf: 'start' }}>
                 <ModalButton icon="edit" compact>
